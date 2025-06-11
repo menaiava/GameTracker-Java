@@ -1,5 +1,4 @@
 /**
- * Q.2 (b)
  * This class represents a Game.
  * Each game has a unique ID, title, genre, 
  * and a status which tells us the actual gaming status.
@@ -9,7 +8,7 @@
  */
 public class Game implements Comparable<Game>
 {
-    //Q.2(c)(i)
+    
     private int gameID;
     private String title;
     private String genre;
@@ -40,7 +39,6 @@ public class Game implements Comparable<Game>
     }
 
     /**
-     * Q.2(c)(i)
      * Gets the game ID
      * 
      * @return The game unique ID.
@@ -51,7 +49,6 @@ public class Game implements Comparable<Game>
     }
 
     /**
-     * Q.2(c)(i)
      * Gets the title of the game
      * 
      * @return The title of the game
@@ -62,7 +59,6 @@ public class Game implements Comparable<Game>
     }
 
     /**
-     * Q.2(c)(i)
      * Gets the genre of the game
      * 
      * @return The genre of the game
@@ -73,7 +69,6 @@ public class Game implements Comparable<Game>
     }
 
     /**
-     * Q.2(c)(i)
      * Gets the status of the game
      * 
      * @return the status of the game
@@ -84,7 +79,6 @@ public class Game implements Comparable<Game>
     }
 
     /**
-     * Q.2(c)(i)
      * Set the status by checking and matching the inputted status to the constant.
      * If the status inputted is not valid, it will throw an exception.
      * 
@@ -113,7 +107,6 @@ public class Game implements Comparable<Game>
     }
 
     /**
-     * Q.2(c)(i)
      * It return a string with the game details.
      * Game ID, title, genre and status.
      * 
@@ -129,7 +122,6 @@ public class Game implements Comparable<Game>
     }
 
     /**
-     * Q.2(c)(ii)
      * It check if two games are equals
      * by checking their gameID
      * 
@@ -156,7 +148,6 @@ public class Game implements Comparable<Game>
     }
 
     /**
-     * Q.2(c)(ii)
      * Return a hash code for this Game using the gameID.
      * 
      * @return an integer hash code based on the gameID.
@@ -168,7 +159,6 @@ public class Game implements Comparable<Game>
     }
 
     /**
-     * Q.2(c)(ii)
      * Compare this Game to another Game using titles.
      * This also allows us to sort games by their titles.
      * 
