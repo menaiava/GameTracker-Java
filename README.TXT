@@ -3,7 +3,7 @@ PROJECT TITLE:
 GameTracker
  
 PURPOSE OF PROJECT: 
-This project is one of my coursework. It includes a Java class named GameTracker that manages a collection of Game objects.
+This project is one of my coursework projects. It includes a Java class named GameTracker that manages a collection of Game objects.
 Each game has a unique ID, a title, a genre (like RPG or Action...), and a status (like Completed, In progress or Not started).
 The GameTracker class allows you to add, remove, update, filter and list the games.
 It also allow you to export the games in the collection to a CSV file.
